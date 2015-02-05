@@ -23,5 +23,6 @@ Pod::Spec.new do |s|
   s.source_files = 'SinaWeiboSDK'
   s.resources = 'SinaWeiboSDK/WeiboSDK.bundle'
   s.ios.vendored_library = 'SinaWeiboSDK/libWeiboSDK.a'
+  s.frameworks = 'ImageIO'
   s.xcconfig = { 'OTHER_LDFLAGS' => '-ObjC' }
 end

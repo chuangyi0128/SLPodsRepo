@@ -19,6 +19,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, '5.0'
   s.requires_arc = true
+  s.ios.vendored_library = 'WeChatSDK/libWeChatSDK.a'
 
   s.source_files = 'WeChatSDK'
 end
